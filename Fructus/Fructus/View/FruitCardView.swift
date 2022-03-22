@@ -12,7 +12,7 @@ struct FruitCardView: View {
     var fruit: Fruit
     @State private var isAnimating: Bool = false
     // MARK: - BODY
-    
+    //Change
     var body: some View {
         ZStack {
             VStack (spacing: 20){
