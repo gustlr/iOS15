@@ -21,6 +21,7 @@
 		9B87312427F240D800DB6D9C /* FruitHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B87312327F240D800DB6D9C /* FruitHeaderView.swift */; };
 		9B87312627F243A600DB6D9C /* SourceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B87312527F243A600DB6D9C /* SourceLinkView.swift */; };
 		9B87312827F24E8500DB6D9C /* FruitNutrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B87312727F24E8500DB6D9C /* FruitNutrientsView.swift */; };
+		9B87312A27F2541900DB6D9C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B87312927F2541900DB6D9C /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		9B87312327F240D800DB6D9C /* FruitHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitHeaderView.swift; sourceTree = "<group>"; };
 		9B87312527F243A600DB6D9C /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
 		9B87312727F24E8500DB6D9C /* FruitNutrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutrientsView.swift; sourceTree = "<group>"; };
+		9B87312927F2541900DB6D9C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				9B39B0AB27E0285A004B159B /* ContentView.swift */,
 				9B39B0BD27E03BAD004B159B /* OnboardingView.swift */,
 				9B87312127EE023800DB6D9C /* FruitDetailView.swift */,
+				9B87312927F2541900DB6D9C /* SettingsView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 				9B39B0BE27E03BAD004B159B /* OnboardingView.swift in Sources */,
 				9B2B947D27E968DC00F63759 /* FruitModel.swift in Sources */,
 				9B39B0AA27E0285A004B159B /* FructusApp.swift in Sources */,
+				9B87312A27F2541900DB6D9C /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
