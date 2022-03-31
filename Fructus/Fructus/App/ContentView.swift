@@ -18,7 +18,7 @@ struct ContentView: View {
                 ForEach(fruit.shuffled()){ item in
                     NavigationLink(destination: FruitDetailView(fruit: item)){
                         FruitRowView(fruit: item)
-                                                .padding(.vertical, 4)
+                        .padding(.vertical, 4)
                     }
                     
                 }
@@ -34,7 +34,7 @@ struct ContentView: View {
             }
             )
         }
-        
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 

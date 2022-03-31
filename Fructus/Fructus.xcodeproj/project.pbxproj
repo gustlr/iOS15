@@ -23,7 +23,19 @@
 		9B87312827F24E8500DB6D9C /* FruitNutrientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B87312727F24E8500DB6D9C /* FruitNutrientsView.swift */; };
 		9B87312A27F2541900DB6D9C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B87312927F2541900DB6D9C /* SettingsView.swift */; };
 		9B87312C27F2A7EC00DB6D9C /* SettingLableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B87312B27F2A7EC00DB6D9C /* SettingLableView.swift */; };
+		9B87313B27F3E50300DB6D9C /* FructusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B87313A27F3E50300DB6D9C /* FructusUITests.swift */; };
+		9B87313D27F3E50300DB6D9C /* FructusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B87313C27F3E50300DB6D9C /* FructusUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B87313E27F3E50300DB6D9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B39B09E27E02859004B159B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B39B0A527E02859004B159B;
+			remoteInfo = Fructus;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		9B2B947C27E968DC00F63759 /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
@@ -43,10 +55,20 @@
 		9B87312727F24E8500DB6D9C /* FruitNutrientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitNutrientsView.swift; sourceTree = "<group>"; };
 		9B87312927F2541900DB6D9C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		9B87312B27F2A7EC00DB6D9C /* SettingLableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingLableView.swift; sourceTree = "<group>"; };
+		9B87313827F3E50300DB6D9C /* FructusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FructusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B87313A27F3E50300DB6D9C /* FructusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FructusUITests.swift; sourceTree = "<group>"; };
+		9B87313C27F3E50300DB6D9C /* FructusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FructusUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9B39B0A327E02859004B159B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B87313527F3E50300DB6D9C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				9B39B0A827E02859004B159B /* Fructus */,
+				9B87313927F3E50300DB6D9C /* FructusUITests */,
 				9B39B0A727E02859004B159B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				9B39B0A627E02859004B159B /* Fructus.app */,
+				9B87313827F3E50300DB6D9C /* FructusUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -135,6 +159,15 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		9B87313927F3E50300DB6D9C /* FructusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B87313A27F3E50300DB6D9C /* FructusUITests.swift */,
+				9B87313C27F3E50300DB6D9C /* FructusUITestsLaunchTests.swift */,
+			);
+			path = FructusUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -155,6 +188,24 @@
 			productReference = 9B39B0A627E02859004B159B /* Fructus.app */;
 			productType = "com.apple.product-type.application";
 		};
+		9B87313727F3E50300DB6D9C /* FructusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B87314027F3E50300DB6D9C /* Build configuration list for PBXNativeTarget "FructusUITests" */;
+			buildPhases = (
+				9B87313427F3E50300DB6D9C /* Sources */,
+				9B87313527F3E50300DB6D9C /* Frameworks */,
+				9B87313627F3E50300DB6D9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B87313F27F3E50300DB6D9C /* PBXTargetDependency */,
+			);
+			name = FructusUITests;
+			productName = FructusUITests;
+			productReference = 9B87313827F3E50300DB6D9C /* FructusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -167,6 +218,10 @@
 				TargetAttributes = {
 					9B39B0A527E02859004B159B = {
 						CreatedOnToolsVersion = 13.2.1;
+					};
+					9B87313727F3E50300DB6D9C = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 9B39B0A527E02859004B159B;
 					};
 				};
 			};
@@ -184,6 +239,7 @@
 			projectRoot = "";
 			targets = (
 				9B39B0A527E02859004B159B /* Fructus */,
+				9B87313727F3E50300DB6D9C /* FructusUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -195,6 +251,13 @@
 			files = (
 				9B39B0B127E0285A004B159B /* Preview Assets.xcassets in Resources */,
 				9B39B0AE27E0285A004B159B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B87313627F3E50300DB6D9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,7 +285,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9B87313427F3E50300DB6D9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B87313B27F3E50300DB6D9C /* FructusUITests.swift in Sources */,
+				9B87313D27F3E50300DB6D9C /* FructusUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B87313F27F3E50300DB6D9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B39B0A527E02859004B159B /* Fructus */;
+			targetProxy = 9B87313E27F3E50300DB6D9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		9B39B0B227E0285A004B159B /* Debug */ = {
@@ -401,6 +481,40 @@
 			};
 			name = Release;
 		};
+		9B87314127F3E50300DB6D9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R3L959NAAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apress.FructusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fructus;
+			};
+			name = Debug;
+		};
+		9B87314227F3E50300DB6D9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R3L959NAAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.apress.FructusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fructus;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -418,6 +532,15 @@
 			buildConfigurations = (
 				9B39B0B527E0285A004B159B /* Debug */,
 				9B39B0B627E0285A004B159B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B87314027F3E50300DB6D9C /* Build configuration list for PBXNativeTarget "FructusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B87314127F3E50300DB6D9C /* Debug */,
+				9B87314227F3E50300DB6D9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
