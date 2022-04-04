@@ -53,8 +53,10 @@ class FructusUITests: XCTestCase {
         let settingTitle = app.navigationBars["Settings"]
         XCTAssertTrue(settingTitle.exists)
         XCTAssertTrue(app.staticTexts["Developer"].exists)
+        XCTAssert(app.switches["RESTART"].exists)
         XCTAssert(app.buttons["@RoberPetras"].isHittable)
         XCTAssert(app.buttons["SwiftUI Masterclass"].isHittable)
+        
         XCTAssert(app.buttons["Close"].isHittable)
         
         

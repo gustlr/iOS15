@@ -24,7 +24,9 @@ struct ContentView: View {
                 }
             }
             .navigationTitle("Fruits")
-            .navigationBarItems(trailing: Button(action: {
+            .navigationBarItems(
+                trailing:
+                    Button(action: {
                 isShowingSettings = true
             }){
                 Image(systemName: "slider.horizontal.3")
