@@ -32,7 +32,7 @@ class AfricaUITests: XCTestCase {
         }
     }
     
-    func mainViewTest() throws{
+    func testMainView() throws{
         let app = XCUIApplication()
         app.launch()
         let listOfTabsButtons = ["Browse","Watch", "Locations", "Gallery"]
