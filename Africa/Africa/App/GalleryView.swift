@@ -9,7 +9,11 @@ import SwiftUI
 
 struct GalleryView: View {
     var body: some View {
-        Text("GalleryVie")
+        ScrollView(.vertical, showsIndicators: false) {
+            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        }
+        .frame(maxWidth: .infinity ,maxHeight: .infinity)
+        .background(MotionAnimationView())
     }
 }
 
